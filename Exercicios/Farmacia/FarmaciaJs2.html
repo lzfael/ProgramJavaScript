@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmaciaJS</title>
+</head>
+<body>
+    <main>
+        <h1><center>FarmaciaJS</center></h1>
+        <form>
+            <center>
+            <p>
+                Medicamento:
+                <input type="text" id="inMedicine" required>
+            </p>
+            <p>
+                Valor do Produto: R$
+                <input type="number" id="inPrice" step="0.10" required>
+            </p>
+        </form>
+
+        <input type="submit" value="Calcule a Promo">
+
+    </center>
+    
+        <h1 id="outProduto"></h1>
+        <p id="outPreco"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
